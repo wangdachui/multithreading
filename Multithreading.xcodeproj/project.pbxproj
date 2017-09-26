@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93146BC41F79FA250092D136 /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93146BC21F79FA250092D136 /* NSOperationVC.m */; };
+		93146BC51F79FA250092D136 /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93146BC31F79FA250092D136 /* NSOperationVC.xib */; };
 		9329DB4E1F6A9F5F0068AB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329DB4D1F6A9F5F0068AB7E /* main.m */; };
 		9329DB511F6A9F5F0068AB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329DB501F6A9F5F0068AB7E /* AppDelegate.m */; };
 		9329DB541F6A9F5F0068AB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9329DB531F6A9F5F0068AB7E /* ViewController.m */; };
@@ -15,9 +17,15 @@
 		9329DB5C1F6A9F5F0068AB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9329DB5A1F6A9F5F0068AB7E /* LaunchScreen.storyboard */; };
 		937A53021F74DF8E00561655 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A53001F74DF8E00561655 /* SwiftViewController.swift */; };
 		937A53031F74DF8E00561655 /* SwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937A53011F74DF8E00561655 /* SwiftViewController.xib */; };
+		93BC3D891F79FE81006571EC /* GCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC3D871F79FE81006571EC /* GCDVC.m */; };
+		93BC3D8A1F79FE81006571EC /* GCDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC3D881F79FE81006571EC /* GCDVC.xib */; };
+		93BC3DAA1F7A0440006571EC /* WTOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC3DA91F7A0440006571EC /* WTOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93146BC11F79FA250092D136 /* NSOperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		93146BC21F79FA250092D136 /* NSOperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		93146BC31F79FA250092D136 /* NSOperationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
 		9329DB491F6A9F5F0068AB7E /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9329DB4D1F6A9F5F0068AB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9329DB4F1F6A9F5F0068AB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +39,11 @@
 		937A52FF1F74DF8E00561655 /* Multithreading-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multithreading-Bridging-Header.h"; sourceTree = "<group>"; };
 		937A53001F74DF8E00561655 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		937A53011F74DF8E00561655 /* SwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftViewController.xib; sourceTree = "<group>"; };
+		93BC3D861F79FE81006571EC /* GCDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
+		93BC3D871F79FE81006571EC /* GCDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDVC.m; sourceTree = "<group>"; };
+		93BC3D881F79FE81006571EC /* GCDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDVC.xib; sourceTree = "<group>"; };
+		93BC3DA81F7A0440006571EC /* WTOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTOperation.h; sourceTree = "<group>"; };
+		93BC3DA91F7A0440006571EC /* WTOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,14 @@
 				9329DB501F6A9F5F0068AB7E /* AppDelegate.m */,
 				9329DB521F6A9F5F0068AB7E /* ViewController.h */,
 				9329DB531F6A9F5F0068AB7E /* ViewController.m */,
+				93146BC11F79FA250092D136 /* NSOperationVC.h */,
+				93146BC21F79FA250092D136 /* NSOperationVC.m */,
+				93146BC31F79FA250092D136 /* NSOperationVC.xib */,
+				93BC3DA81F7A0440006571EC /* WTOperation.h */,
+				93BC3DA91F7A0440006571EC /* WTOperation.m */,
+				93BC3D861F79FE81006571EC /* GCDVC.h */,
+				93BC3D871F79FE81006571EC /* GCDVC.m */,
+				93BC3D881F79FE81006571EC /* GCDVC.xib */,
 				937A53001F74DF8E00561655 /* SwiftViewController.swift */,
 				937A53011F74DF8E00561655 /* SwiftViewController.xib */,
 				9329DB551F6A9F5F0068AB7E /* Main.storyboard */,
@@ -148,6 +169,8 @@
 			files = (
 				937A53031F74DF8E00561655 /* SwiftViewController.xib in Resources */,
 				9329DB5C1F6A9F5F0068AB7E /* LaunchScreen.storyboard in Resources */,
+				93146BC51F79FA250092D136 /* NSOperationVC.xib in Resources */,
+				93BC3D8A1F79FE81006571EC /* GCDVC.xib in Resources */,
 				9329DB591F6A9F5F0068AB7E /* Assets.xcassets in Resources */,
 				9329DB571F6A9F5F0068AB7E /* Main.storyboard in Resources */,
 			);
@@ -161,8 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				937A53021F74DF8E00561655 /* SwiftViewController.swift in Sources */,
+				93BC3DAA1F7A0440006571EC /* WTOperation.m in Sources */,
 				9329DB541F6A9F5F0068AB7E /* ViewController.m in Sources */,
 				9329DB511F6A9F5F0068AB7E /* AppDelegate.m in Sources */,
+				93BC3D891F79FE81006571EC /* GCDVC.m in Sources */,
+				93146BC41F79FA250092D136 /* NSOperationVC.m in Sources */,
 				9329DB4E1F6A9F5F0068AB7E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
